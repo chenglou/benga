@@ -1,0 +1,4 @@
+(library
+  ((name tests)
+   (wrapped false)
+   (libraries (dep1 dep2))))

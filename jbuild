@@ -1,0 +1,3 @@
+(executables
+ ((names (jenga_docker_example))
+  (libraries (main))))

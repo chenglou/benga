@@ -1,0 +1,4 @@
+(library
+ ((name main)
+  (wrapped false)
+  (libraries (dep1 dep2))))
