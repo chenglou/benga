@@ -11,3 +11,8 @@ docker run -ti -v `pwd`:/home/opam/jengaroot/project_root jenga-docker sudo '/ho
 ```
 
 You can modify any file and jenga will pick up the changes.
+
+To clear all incremental build artifacts (stored in the local DB, not the build atifacts files) run
+```bash
+docker run -ti -v `pwd`:/home/opam/jengaroot/project_root/ jenga-docker hg st -ni0 | xargs -0 rm -v
+```
